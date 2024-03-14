@@ -1,0 +1,188 @@
+.menu{
+    background-color: #e6d0ca;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: auto;
+    height: 80px; 
+    padding: 0 30px;
+}
+
+.topnav a {
+    padding: 14px 16px;
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+}
+
+.topnav a:hover{
+    color: aquamarine;
+}
+
+.logo{
+    display: flex;
+    width: 155.77px;
+    height: 65px;
+}
+
+.section1{
+    position: relative;
+    width: auto;
+    height: 600px;
+}
+
+.capa{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+}
+
+.ellipse{
+    position: absolute;
+    z-index: -1;
+    top: 40px;
+    left: 20%;
+}
+
+.titulo{
+      font-family: "Montserrat", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 700;
+      font-style: normal;
+      font-size:150px;
+} 
+
+.subtitle{
+      font-family: "Montserrat", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: weight;
+      font-style: normal;
+      font-size:30px ;
+}
+
+.section_rosa{
+    background-color: #e6d0ca;
+    align-items: center;
+    width: auto;
+    height: 350px;       
+}
+
+.frase{
+    display: flex;
+    flex-direction: column;   
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    font-family: "Montserrat";
+    font-size: 20px;
+    gap: 15px;
+}
+
+.titulo_frase{
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.branco{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    }
+
+.sobre{
+    display: flex;
+    margin: 100px 0 0 350px;
+    font-family: "Montserrat";
+    font-size: 40px;
+    font-weight: 700;
+    width: 80%;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.img_sobre {
+    width: 287px;
+    height: 336px;
+    border-radius: 40px;
+    margin: 50px ;
+}
+
+.descricao{
+    display: flex;
+    align-items: center;
+    font-family:"Montserrat" ;
+    font-size: 16px;
+    margin: 50px;
+}
+
+.section_rosa2{
+    background-color: #e6d0ca;
+    align-items: center;
+    width: auto;
+    height: 930px; 
+    padding-top: 1px;    
+}
+
+.carrosel{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.contato{
+    height: 800px;
+       
+}
+
+.container_contato{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+    padding-top: 200px;
+}
+
+.imagem_rodape{
+    width: 384.88px;
+    height: 236px;
+}
+
+.titulo_contato{
+    font-family:"Montserrat" ;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.p_contato{
+    font-family: "Montserrat";
+    font-size: 20px; 
+
+}
+
+.contato_icone{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e6d0ca;
+    height:100px;
+    width: 100%;
+    font-family: "Montserrat";
+}
+.contato_link{
+    text-decoration: none;
+}
